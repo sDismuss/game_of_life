@@ -1,0 +1,8 @@
+repository structure
+
+|
+|- datasets - datasets for your tasks
+|- materials - folder for useful materials 
+|- misc - some files for README
+|- src - main directory
+
