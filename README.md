@@ -1,20 +1,19 @@
 # The Game of Life
 This program is presenting The Game of Life, invented by the British mathematician John Horton Conway in 1970.
 ## Project structure
-- src - contatains main file
-- datasets - contains files for game 
+- `src` - contatains main file
+- `datasets` - contains files for game 
 ## Run the program
-Go to src folder and open Terminal.
-
-In Terminal compile the program:
-```
-gcc -Wall -Wextra -Wextra -std=c11 game_of_life.c -o game_of_life.out -lncurses
-```
-Then run the program:
-```
-./game_of_life.out ../datasets/start_game.txt
-```
-*Hint:* there is more files for game in datasets folder. But only one generation can work at a time.
+1. Go to `src` folder and open Terminal.
+2. In Terminal compile the program:
+  ```bash
+  gcc -Wall -Wextra -Wextra -std=c11 game_of_life.c -o game_of_life.out -lncurses
+  ```
+3. Run the program:
+  ```bash
+  ./game_of_life.out ../datasets/start_game.txt
+  ```
+  > *Hint:* there is more files for game in datasets folder. But only one generation can work at a time.
 ## Speed of the game
 To increase or decrease the rate of cell development, you can use numbers from 1 to 9 during the game.
 
